@@ -98,6 +98,7 @@ Key data points:
 - palladium_price -> XPDUSD
 ### 2. Machine Learning Model
 The ARIMA model is used to forecast future prices based on the most recent 12 hourly entries from metal_prices_analytics. The model is trained using the Model.py script and is triggered within Airflow for daily forecasts.
+
 ![image](https://github.com/user-attachments/assets/78c59a64-261c-44c0-ae4b-7ce2adc470d6)
 
 ### 3. Backup Process
